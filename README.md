@@ -29,11 +29,13 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
     cd literAlura
     ```
 3. **Configura tu base de datos en el archivo application.properties.**
-   - spring.datasource.url=jdbc:postgresql://localhost:5432/
-   - nombre_de_tu_base_de_datos
-   - spring.datasource.username=tu_usuario
-   - spring.datasource.password=tu_contraseña
-   - spring.jpa.hibernate.ddl-auto=update
+    ```bash   
+    spring.datasource.url=jdbc:postgresql://localhost:5432/
+   nombre_de_tu_base_de_datos
+   spring.datasource.username=tu_usuario
+   spring.datasource.password=tu_contraseña
+   spring.jpa.hibernate.ddl-auto=update
+   ```
 
 ## 🛠️ Uso
 
@@ -43,7 +45,8 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
       
 2. **Interfaz de Usuario:**
     - Al iniciar la aplicación, se mostrará un menú en la consola con las siguientes opciones:
-      Bienvenidos a literAlura
+    ```bash       
+    Bienvenidos a literAlura
         Elija una opción:
         1 - Buscar libro por título
         2 - Listar libros registrados
@@ -51,6 +54,7 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
         4 - Listar autores vivos en un determinado año
         5 - Listar libros por idioma
         0 - Salir
+    ```
    - Selecciona la opción deseada ingresando el número correspondiente y sigue las instrucciones en pantalla.
 
 ## 🌐 Conéctate conmigo
