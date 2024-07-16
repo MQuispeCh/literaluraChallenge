@@ -1,7 +1,7 @@
 # 📚 literAlura
 
 Este es un programa en Java basado en Spring Boot que permite gestionar libros y autores de manera eficiente. La aplicación facilita la búsqueda, registro y listado de libros y autores, con funcionalidades avanzadas para listar autores vivos en un año específico y libros por idioma. Fue realizado en base al 
-"Challenge ONE | Java | Back End | Gestión de Libros y Autores".
+- "Challenge ONE | Java | Back End | Gestión de Libros y Autores".
 
 ## ✨ Características
 
@@ -13,10 +13,10 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
 
 ## 📋 Requisitos
 
--☕ Java 11 o superior.
--🛠️ Spring Boot 2.6.4.
--🗄️ Base de datos SQL compatible (PostgreSQL, MySQL, MariaDB, SQL Server, H2).
--📦 Maven para la gestión de dependencias.
+- ☕ Java 11 o superior.
+- 🛠️ Spring Boot 2.6.4.
+- 🗄️ Base de datos SQL compatible (PostgreSQL, MySQL, MariaDB, SQL Server, H2).
+- 📦 Maven para la gestión de dependencias.
 
 ## 🚀 Instalación
 
@@ -29,11 +29,11 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
     cd literAlura
     ```
 3. **Configura tu base de datos en el archivo application.properties.**
-   -spring.datasource.url=jdbc:postgresql://localhost:5432/
-   -nombre_de_tu_base_de_datos
-   -spring.datasource.username=tu_usuario
-   -spring.datasource.password=tu_contraseña
-   -spring.jpa.hibernate.ddl-auto=update
+   - spring.datasource.url=jdbc:postgresql://localhost:5432/
+   - nombre_de_tu_base_de_datos
+   - spring.datasource.username=tu_usuario
+   - spring.datasource.password=tu_contraseña
+   - spring.jpa.hibernate.ddl-auto=update
 
 ## 🛠️ Uso
 
