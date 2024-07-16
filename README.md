@@ -29,11 +29,11 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
     cd literAlura
     ```
 3. **Configura tu base de datos en el archivo application.properties.**
-   spring.datasource.url=jdbc:postgresql://localhost:5432/
-   nombre_de_tu_base_de_datos
-   spring.datasource.username=tu_usuario
-   spring.datasource.password=tu_contraseña
-   spring.jpa.hibernate.ddl-auto=update
+   -spring.datasource.url=jdbc:postgresql://localhost:5432/
+   -nombre_de_tu_base_de_datos
+   -spring.datasource.username=tu_usuario
+   -spring.datasource.password=tu_contraseña
+   -spring.jpa.hibernate.ddl-auto=update
 
 ## 🛠️ Uso
 
