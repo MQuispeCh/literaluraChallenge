@@ -5,11 +5,11 @@ Este es un programa en Java basado en Spring Boot que permite gestionar libros y
 
 ## ✨ Características
 
--📖 Búsqueda de libros por título.
--📝 Registro y listado de libros y autores en la base de datos.
--🎭 Listado de autores vivos en un año específico.
--🌐 Filtrado de libros por idioma.
--🔄 Evita duplicados en la base de datos al procesar la información de libros y autores.
+- 📖 Búsqueda de libros por título.
+- 📝 Registro y listado de libros y autores en la base de datos.
+- 🎭 Listado de autores vivos en un año específico.
+- 🌐 Filtrado de libros por idioma.
+- 🔄 Evita duplicados en la base de datos al procesar la información de libros y autores.
 
 ## 📋 Requisitos
 
